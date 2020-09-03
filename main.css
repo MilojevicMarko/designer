@@ -89,9 +89,6 @@ hr {
 .main-portfolio {
   display: flex;
   justify-content: space-between;
-  /* width: 100%;
-  overflow: hidden;
-  flex-direction: row; */
   padding: 30px;
 }
 .main-portfolio > article {
