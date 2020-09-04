@@ -51,6 +51,9 @@ header img {
   padding-top: 0;
   padding-bottom: 30px;
 }
+.main > h2 {
+  padding-top: 30px;
+}
 .main p {
   color: rgba(255, 255, 255, 0.4);
   padding: 20px;
@@ -81,14 +84,18 @@ button:hover {
 }
 .hr {
   background: rgba(255, 255, 255, 0.4);
-  border: none;
+  border-bottom: none;
   height: 2px;
   margin: 50px auto;
   width: 75%;
 }
 .portfolio {
   background-color: #333;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.4);
+ 
+}
+.portfolio > h2,h3 {
+  color: #fff;
   margin-top: 0;
 }
 .main-portfolio {
@@ -107,5 +114,27 @@ button:hover {
 h2,
 h3,
 p {
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.596);
+}
+form {
+    width: 40%;
+    margin: auto;
+    color: red;
+}
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    background:  rgba(255, 255, 255, 0.596);
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+footer .form > button {
   text-align: center;
 }
