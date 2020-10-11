@@ -33,6 +33,13 @@ nav ul li a {
   list-style: none;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #fff;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+nav ul li a:active {
+  color: red;
 }
 h1 {
   margin: 50px 0 20px;
@@ -76,6 +83,8 @@ button {
   padding: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin: 10px;
+  text-align: center;
 }
 button:hover {
   background: #fff;
@@ -85,10 +94,7 @@ button:hover {
 .hr {
   background: rgba(255, 255, 255, 0.4);
   border-bottom: none;
-  height: 2px;
-  margin: 50px auto;
-  width: 75%;
-}
+  height: 2px;}
 .portfolio {
   background-color: #333;
   color: rgba(255, 255, 255, 0.4);
@@ -96,14 +102,16 @@ button:hover {
 }
 .portfolio > h2,h3 {
   color: #fff;
-  margin-top: 0;
 }
+
 .main-portfolio {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
 }
-
+.main-portfolio > article {
+  padding-bottom: 35px;
+}
 .main-portfolio > article p {
   text-align: center;
 }
@@ -120,6 +128,9 @@ footer {
   background-color: #333;
   color: rgba(255, 255, 255, 0.596);
 }
+footer > h2 {
+  padding-top: 20px;
+}
 form {
     width: 40%;
     margin: auto;
@@ -135,6 +146,9 @@ form textarea {
     padding: 20px;
     font-size: 1.2rem;
 }
-footer .form > button {
-  text-align: center;
+footer > p {
+  padding: 0 20px 30px 20px;
+}
+footer > form > button {
+  margin: 0 0 0 150px;
 }
